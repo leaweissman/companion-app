@@ -21,7 +21,7 @@ p {
     margin: 0;
   }
 
-ul,
+  ul,
   ol {
   list-style: none;
   padding: 0;
@@ -40,6 +40,7 @@ h1{
     font-size: 16;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.125;
+    padding: 2rem 0;
 }
 
 h2{
@@ -48,6 +49,9 @@ h2{
     font-size: 16;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.0;
+    text-align: left;
+    border: none;
+    margin: 3rem 0 2rem 4rem;
 }
 
 h3 {
@@ -84,10 +88,12 @@ h6{
 
 header{
     background-image: url("/images/background_shape_1.svg");
+    background-size:cover;
 }
 
 .icons{
-    max-width: 1rem;
+   
+    min-width: 3rem;
 }
 
     
@@ -95,4 +101,12 @@ header{
 
 body{
     text-align: center;
+}
+
+main {
+    margin-bottom: 12rem;
+}
+
+footer{
+    background-color: white;
 }
