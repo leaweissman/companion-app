@@ -1,0 +1,11 @@
+.nav__container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 3rem;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin-top: 5rem;
+    background: white;
+}

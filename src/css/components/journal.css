@@ -1,0 +1,26 @@
+.journal {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,auto);
+    text-align: left;
+    margin: 0 4rem;
+
+}
+
+.journal__stars {
+    display: flex;
+    align-self: start;
+    
+}
+
+.journal__stars img{
+    margin-right: 2rem;
+}
+
+.journal__box {
+    display: flex;
+}
+
+.journal__box img{
+    margin-right: 0.5rem;
+}
