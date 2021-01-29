@@ -1,0 +1,13 @@
+.buddy{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position:relative;
+}
+.plus{
+    max-width: 1rem;
+    position: absolute;;
+    top: 110px;
+    align-self:center;
+
+}
