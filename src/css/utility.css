@@ -1,7 +1,21 @@
 .bl-dark{
-    border: solid 1px var(--blue2);
-    
+    border: solid 1px var(--blue1);
+   
 }
 
 
-.bl-light
+.bl-light{
+    border: solid 1px var(--blue2);
+
+}
+
+.or-shadow{
+    box-shadow: 0 4 10 rgba(255, 90, 54, 0.4);
+    fill: #ffffff;
+}
+
+.bl-shadow{
+    box-shadow: 0 2 11 rgba(25,50,81, 0.2);
+    mix-blend-mode: darken;
+}
+
