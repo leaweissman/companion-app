@@ -8,6 +8,31 @@
     --orange2:#FFBDAF;
     --orange3: #FFDED7;
 }
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body, 
+h1, 
+h2,
+h3,
+p {
+    margin: 0;
+  }
+
+ul,
+  ol {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
 
 h1{
     color: var(--primaryblue);
@@ -57,3 +82,17 @@ h6{
     line-height: 1.333;
 }
 
+header{
+    background-image: url("/images/background_shape_1.svg");
+}
+
+.icons{
+    max-width: 1rem;
+}
+
+    
+
+
+body{
+    text-align: center;
+}

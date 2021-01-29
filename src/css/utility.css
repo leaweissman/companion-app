@@ -6,7 +6,9 @@
 
 .bl-light{
     border: solid 1px var(--blue2);
-
+    padding: 2rem;
+    
+    
 }
 
 .or-shadow{
@@ -19,3 +21,12 @@
     mix-blend-mode: darken;
 }
 
+.radius__bottom{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.radius__top{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
