@@ -1,0 +1,59 @@
+:root{
+    --primaryblue:#193251;
+    --blue1:#7589A2;
+    --blue2:#E0E4E8;
+    --blue3:#F8F8F8;
+    --primaryorange:#FF5A36;
+    --orange1: #FF9C86;
+    --orange2:#FFBDAF;
+    --orange3: #FFDED7;
+}
+
+h1{
+    color: var(--primaryblue);
+    font-weight: bold (700);
+    font-size: 16;
+    font-family: "open sans";
+    line-height: 1.125;
+}
+
+h2{
+    color: var(--primaryblue);
+    font-weight:600;
+    font-size: 16;
+    font-family: "open sans";
+    line-height: 1.0;
+}
+
+h3 {
+    color: var(--blue1);
+    font-weight:600;
+    font-size: 16;
+    font-family: "open sans";
+    line-height: 1.0; 
+}
+
+h4{
+    color: var(--primaryblue);
+    font-weight:600;
+    font-size: 14;
+    font-family: "open sans";
+    line-height: 1.286;
+}
+
+h5{
+    color: var(--primaryblue);
+    font-weight:600;
+    font-size: 14;
+    font-family: "open sans";
+    line-height: 1.143;
+}
+
+h6{
+    color: var(--blue1);
+    font-weight:400;
+    font-size: 12;
+    font-family: "open sans";
+    line-height: 1.333;
+}
+
