@@ -11,5 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "parcel-bundler": "^1.12.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leaweissman/companion-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leaweissman/companion-app/issues"
+  },
+  "homepage": "https://github.com/leaweissman/companion-app#readme"
 }
