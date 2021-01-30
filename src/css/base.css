@@ -51,7 +51,7 @@ h2{
     line-height: 1.0;
     text-align: left;
     border: none;
-    margin: 3rem 0 2rem 4rem;
+    margin: 3rem 0 2rem 2rem;
 }
 
 h3 {
@@ -76,6 +76,9 @@ h5{
     font-size: 14;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.143;
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 0.7rem;
 }
 
 h6{
@@ -89,16 +92,15 @@ h6{
 header{
     background-image: url("/images/background_shape_1.svg");
     background-size:cover;
+    height: 7rem;
 }
 
 .icons{
    
-    min-width: 3rem;
+    min-width: 1.8rem;
 }
 
     
-
-
 body{
     text-align: center;
 }
