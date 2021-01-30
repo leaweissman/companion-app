@@ -1,8 +1,47 @@
 .formular{
     border: solid 1px var(--blue2);
     padding: 0.5rem 0;
+   
+    
 }
 
-.formular__orangebutton{
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 20px 0;
+}
+
+
+
+
+
+.button__orange{
+    background-color: var(--primaryorange);
+    border: none;
+    color: white;
+    padding:10px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold (700);
+    font-size: 16;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1rem;
     
+}
+
+.button__cancel{
+    background-color: #ffffff;
+    border: none;
+    color: var(--primaryblue);
+    padding:10px 40px;
+    text-align: center;
+    text-decoration: none;
+
+    font-weight: bold (700);
+    font-size: 16;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1rem;
 }
