@@ -31,6 +31,8 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    
+ 
   }
 
 
@@ -41,9 +43,10 @@ h1{
     font-family: 'Open Sans', sans-serif;
     line-height: 1.125;
     padding: 2rem 0;
+    
 }
 
-h2{
+h2 {
     color: var(--primaryblue);
     font-weight:600;
     font-size: 16;
@@ -51,10 +54,10 @@ h2{
     line-height: 1.0;
     text-align: left;
     border: none;
-    margin: 3rem 0 2rem 4rem;
+    margin: 3rem 0 2rem 2rem;
 }
 
-h3 {
+h3, button{
     color: var(--blue1);
     font-weight:600;
     font-size: 16;
@@ -62,7 +65,7 @@ h3 {
     line-height: 1.0; 
 }
 
-h4{
+h4, .button__paragraph{
     color: var(--primaryblue);
     font-weight:600;
     font-size: 14;
@@ -73,15 +76,18 @@ h4{
 
 }
 
-h5{
+h5, caption {
     color: var(--primaryblue);
     font-weight:600;
     font-size: 14;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.143;
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 0.7rem;
 }
 
-h6{
+h6, th, #ticks .tick p, .table__paragraph1, .table__paragraph2{
     color: var(--blue1);
     font-weight:400;
     font-size: 12;
@@ -92,16 +98,15 @@ h6{
 header{
     background-image: url("/images/background_shape_1.svg");
     background-size:cover;
+    height: 7rem;
 }
 
 .icons{
    
-    min-width: 3rem;
+    min-width: 1.8rem;
 }
 
     
-
-
 body{
     text-align: center;
 }

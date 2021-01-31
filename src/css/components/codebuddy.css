@@ -2,13 +2,34 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    position:relative;
+    position:relative; 
+}
+
+
+.buddy__2 {
+    margin: 2rem auto;
+    position: relative;
     
 }
+
+.codebuddy__sl {
+    margin-top: -2rem;
+    
+}
+
 .plus{
     max-width: 1rem;
-    position: absolute;;
+    position: absolute;
     top: 76px;
     align-self:center;
 
 }
+
+.plus__2 {
+    position: absolute;
+    left: 11rem;
+    top: 4.7rem;
+    
+}
+
+
