@@ -21,6 +21,6 @@
     display: flex;
 }
 
-.journal__box img{
-    margin-right: 0.3rem;
+.journal__box img{ 
+    margin-right: 0.5rem;
 }
