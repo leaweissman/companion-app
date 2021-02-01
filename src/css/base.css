@@ -109,7 +109,6 @@ header{
 .icons{
    
     min-width: 1.8rem;
-    
 }
 
     
@@ -118,15 +117,34 @@ body{
 }
 
 main {
-    margin-bottom: 12rem;
+    margin-bottom: 8rem;
 }
 
 footer{
     background-color: white;
-    
-    
+    opacity: 1;
 }
 
 .dashboard__h5{
     margin-left: 2rem;
+}
+
+.notes{
+    color: var(--primaryblue);
+    font-weight:400;
+    font-size: 14;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.429; 
+    text-align: left;
+    margin-left: 0rem;
+    margin-bottom:0.7rem;
+}
+
+.citylife{
+    color: var(--primaryblue);
+    font-weight:600;
+    font-size: 14;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.286;
+    text-align: left;
 }
