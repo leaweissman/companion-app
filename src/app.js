@@ -25,6 +25,10 @@ codebuddybox.innerHTML = ` <h3 class="bl-light radius__top buddy__name"> ${rando
         <h3 class="bl-light radius__bottom buddy__name">${randomcodebuddy2}</h3>
         <img src="images/Plus.svg" class="plus" alt="plus icon">
         `;
+//const plussvg = document.createElement('img');
+//document.body.appendChild(plussvg);
+//plussvg.classList.add('plus');
+
 
 const headlineTeam = document.createElement('h5');
 document.body.appendChild(headlineTeam);
