@@ -15,15 +15,15 @@ var randomcodebuddy5 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 
 const buddyfortheday = document.createElement('h5');
 //const maintoday = document.querySelector('main');
 //maintoday.parentNode.insertBefore(buddyfortheday, maintoday);
+
 document.body.appendChild(buddyfortheday);
 buddyfortheday.innerHTML = `<h5 class="dashboard__h5">Your Code Buddy for Today:</h5>`
 
 const codebuddybox = document.createElement('section');
 document.body.appendChild(codebuddybox);
 codebuddybox.classList.add('buddy');
-codebuddybox.innerHTML = ` <h3 class="bl-light radius__top buddy__name"> ${randomcodebuddy1}</h3>
+codebuddybox.innerHTML = ` <h3 class="bl-light radius__top buddy__name"> Profile Name </h3>
         <h3 class="bl-light radius__bottom buddy__name">${randomcodebuddy2}</h3>
-        <img src="images/Plus.svg" class="plus" alt="plus icon">
         `;
 //const plussvg = document.createElement('img');
 //document.body.appendChild(plussvg);
@@ -38,7 +38,7 @@ const teambox = document.createElement('section');
 document.body.appendChild(teambox);
 teambox.classList.add('team');
 teambox.innerHTML = `
-<h3 class="team bl-light radius__top">${randomcodebuddy1}</h3>
+<h3 class="team bl-light radius__top"> Profile Name </h3>
 <h3 class="team bl-light">${randomcodebuddy2}</h3>
 <h3 class="team bl-light">${randomcodebuddy3}</h3>
 <h3 class="team bl-light">${randomcodebuddy4}</h3>

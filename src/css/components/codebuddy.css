@@ -18,7 +18,6 @@
 }
 
 .plus{
-    max-width: 1rem;
     position: absolute;
     top: 76px;
     align-self:center;
@@ -34,4 +33,16 @@
 
 .buddy__name{
     text-align: center;
+}
+
+.buddy__name:nth-child(2n):before{
+content:"";
+background-image: url('../../images/Plus.svg');
+width: 3rem;
+height: 3rem;
+display: block;
+background-repeat: no-repeat;
+position: absolute;
+top: -0.75rem;
+left: 47vw;
 }
