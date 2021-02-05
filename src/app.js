@@ -83,7 +83,7 @@ journalbox.innerHTML = `<h6>Rating:</h6>
 <p class="journal__notes notes">Si sine causa? quae fuerit causa, mox videro; interea hoc tenebo, si mihi.
     Et
     quidem se repellere, idque
-    instituit docere sic omne animal, simul atque blub.
+    instituit docere sic omne animal, simul atque blubblublub.
 </p>`
 
 
