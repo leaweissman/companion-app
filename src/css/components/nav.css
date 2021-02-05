@@ -8,7 +8,9 @@
     right:0;
     background-color: white;
     padding: 1rem;
+    z-index: 1;
 }
+
   
 .nav__container img{
     opacity: 60%;  

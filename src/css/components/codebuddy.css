@@ -3,6 +3,7 @@
     flex-direction: column;
     text-align: center;
     position:relative; 
+    margin-bottom: 2rem;
 }
 
 
@@ -45,4 +46,8 @@ background-repeat: no-repeat;
 position: absolute;
 top: 4.65rem;
 left: 48.5vw;
+}
+
+.buddyend{
+    margin-bottom: 9rem;
 }

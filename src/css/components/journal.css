@@ -46,3 +46,16 @@
     margin-left: 0;
     margin-right: 2rem;
 }
+
+.filledstars{
+    background-image: url("../../images/Star@2x.svg");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.filledrectangles{
+    background-image: url("../../images/Rectangle@2x.svg");
+    background-repeat: no-repeat;
+}
