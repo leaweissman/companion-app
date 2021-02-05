@@ -2,11 +2,11 @@ const codebuddy = ['Nicole', 'André', 'Mali', 'Karin', 'Stefan', 'Daniel', 'Phi
 
 //<h5 class="dashboard__h5">Your Code Buddy for Today:</h5><section class="buddy"></section>
 
-var randomcodebuddy1 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 1];
-var randomcodebuddy2 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 1];
-var randomcodebuddy3 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 1];
-var randomcodebuddy4 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 1];
-var randomcodebuddy5 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 1];
+let randomcodebuddy1 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 1];
+let randomcodebuddy2 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 1];
+let randomcodebuddy3 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 1];
+let randomcodebuddy4 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 1];
+let randomcodebuddy5 = codebuddy[Math.floor(Math.random() * codebuddy.length) + 1];
 
 //function randomizer (){
 //if (randomcodebuddy1 === randomcodebuddy2) {}
