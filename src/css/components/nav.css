@@ -11,16 +11,14 @@
     z-index: 1;
 }
 
-  
+.activeicons{
+    opacity: 100%;
+    
+}
 .nav__container img{
     opacity: 60%;  
 }
 
-.nav__container img.active{
-    opacity: 100%;
-}
 
-.home{
-    opacity: 100%;
-}
+
 
