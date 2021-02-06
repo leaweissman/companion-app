@@ -3,6 +3,7 @@ const lightstar = document.querySelectorAll('.lightstars')
 lightstar.forEach((starwurst) => {
     starwurst.addEventListener('click', () => {
         starwurst.classList.toggle('filledstars');
+
     })
 })
 
