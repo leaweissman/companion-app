@@ -47,14 +47,21 @@
     margin-right: 2rem;
 }
 
+.journal__stars img {
+    width: 1.65rem;
+}
 
 .filledstars{
     background-image: url("../../images/Star@2x.svg");
     background-repeat: no-repeat;
-
-}
     
+}
 
+
+
+.journal__box img{
+    width: 1.4rem;
+}
 
 
 .filledrectangles{
