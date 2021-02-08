@@ -1,11 +1,10 @@
-//const activeincons = document.querySelectorAll('.icon')
+const activeincons = document.querySelectorAll('.icons')
 
-//activeincons.forEach((activeicon) => {
-//activeicon.addEventListener('click', () => {
-//activeicon.classList.toggle('nav_container img');
-//activeicon.classList.toggle('activeicons');
-//})
-//})
+activeincons.forEach((activeicon) => {
+    activeicon.addEventListener('click', () => {
+        activeicon.classList.add('test');
+    })
+})
 
 
 

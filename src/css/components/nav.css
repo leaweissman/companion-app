@@ -11,9 +11,9 @@
     z-index: 1;
 }
 
-.activeicons{
+.nav__container img.activeicons{
     opacity: 100%;
-    
+
 }
 .nav__container img{
     opacity: 60%;  
