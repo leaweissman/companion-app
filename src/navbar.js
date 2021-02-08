@@ -1,7 +1,8 @@
-const activeincons = document.querySelectorAll('.icons')
+const activeicons = document.querySelectorAll('.icons')
 
-activeincons.forEach((activeicon) => {
+activeicons.forEach((activeicon) => {
     activeicon.addEventListener('click', () => {
+        console.log('clicked')
         activeicon.classList.add('test');
     })
 })
