@@ -1,4 +1,4 @@
-const codebuddy = ['Nicole', 'André', 'Mali', 'Karin', 'Stefan', 'Daniel', 'Philip', 'Maize', 'Sophie', 'Calvin', 'Lea']
+/*const codebuddy = ['Nicole', 'André', 'Mali', 'Karin', 'Stefan', 'Daniel', 'Philip', 'Maize', 'Sophie', 'Calvin', 'Lea']
 
 //<h5 class="dashboard__h5">Your Code Buddy for Today:</h5><section class="buddy"></section>
 
@@ -24,9 +24,6 @@ teambox1.innerHTML = `
 <h3 class="team bl-light radius__bottom">${randomcodebuddy5}</h3>`
 
 
-const headlineTeam2 = document.createElement('h5');
-document.body.appendChild(headlineTeam2);
-headlineTeam2.innerHTML = `<h5 class="dashboard__h5">Team 2</h5>`
 
 const teambox2 = document.createElement('section');
 document.body.appendChild(teambox2);
@@ -36,4 +33,29 @@ teambox2.innerHTML = `
 <h3 class="team bl-light">${randomcodebuddy2}</h3>
 <h3 class="team bl-light">${randomcodebuddy3}</h3>
 <h3 class="team bl-light">${randomcodebuddy4}</h3>
-<h3 class="team bl-light radius__bottom">${randomcodebuddy5}</h3>`
+<h3 class="team bl-light radius__bottom">${randomcodebuddy5}</h3>`*/
+
+
+const teamList = document.querySelector('main')
+
+fetch('https://muc-2020-w1-student-api.vercel.app/api/teams')
+    .then(result => result.json())
+    .then(team => {
+        team.slice().map(renderTeams)
+    })
+    .catch((error) => console.log(error.message))
+
+
+function renderTeams(teamName) {
+    const box = document.createElement('section')
+    box.classList.add('team', 'team__2')
+
+    box.innerHTML = `
+<h3 class="team bl-light radius__top"> ${teamName[0]} </h3>
+<h3 class="team bl-light">${teamName[1]}</h3>
+<h3 class="team bl-light">${teamName[2]}</h3>
+<h3 class="team bl-light">${teamName[3]}</h3>`
+
+    teamList.appendChild(box)
+}
+

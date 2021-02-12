@@ -19,7 +19,7 @@ lightrectangle.forEach((rectanglewurst) => {
 
 
 
-const lightstar1 = document.querySelector('.lightstars1')
+/*const lightstar1 = document.querySelector('.lightstars1')
 
 lightstar1.addEventListener('click', () => {
     lightstar5.classList.remove('filledstars')
@@ -68,7 +68,7 @@ lightstar5.addEventListener('click', () => {
     lightstar3.classList.add('filledstars')
     lightstar2.classList.add('filledstars')
     lightstar1.classList.add('filledstars')
-})
+})*/
 
 
 
