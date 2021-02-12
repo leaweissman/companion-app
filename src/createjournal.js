@@ -71,7 +71,7 @@ lightstar5.addEventListener('click', () => {
 })
 
 
-/* Lösung dynamisch Stars
+
 
 const lightstars = document.querySelectorAll('.journal__stars img')
 
@@ -91,7 +91,7 @@ lightstars.forEach((lightstar) => {
     })
 })
 
-*/
+
 
 const lightrectangles = document.querySelectorAll('.journal__box img')
 
