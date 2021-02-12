@@ -1,5 +1,7 @@
-const activeicon = document.querySelector('.jsisfun')
+/*const filledicons = document.querySelector('.icon__light')
 
-activeicon.addEventListener('click', () => {
-    activeicon.classList.add('home');
-})
+filledicons.forEach((icon) => {
+    icon.addEventListener('click', () => {
+        filledicons.classList.add('filled')
+    })
+})*/
