@@ -113,21 +113,32 @@ lightrectangles.forEach((rectangle) => {
 
 })
 
+
+
 const form = document.querySelector('form')
 const saveButton = document.querySelector('.button__orange')
-const inputField = document.querySelector('.formular')
-let journalEntryList = JSON.parse(localStorage.getItem('entryItem')) || [];
+const cancelButton = document.querySelectorAll('.button__cancel')
+
+const inputFieldMotto = document.querySelector('.form__motto')
+const inputFieldNotes = document.querySelector('.form__notes')
+
+
+let journalEntryListMotto = JSON.parse(localStorage.getItem('entryItemMotto')) || [];
+console.log(journalEntryListMotto)
+
+let journalEntryListNotes = JSON.parse(localStorage.getItem('entryItemNotes')) || [];
+console.log(journalEntryListNotes)
 
 
 form.addEventListener('submit', (event) => {
     event.preventDefault()
-    journalEntryList.push(inputField.value)
-    localStorage.setItem('entryItem', JSON.stringify(journalEntryList));
-    inputField.value = '';
+    journalEntryListMotto.push(inputFieldMotto.value)
+    localStorage.setItem('entryItemMotto', JSON.stringify(journalEntryListMotto));
+
+    journalEntryListNotes.push(inputFieldNotes.value)
+    localStorage.setItem('entryItemNotes', JSON.stringify(journalEntryListNotes));
+
+
+    inputFieldMotto.value = '';
+    inputFieldNotes.value = '';
 })
-
-/*function renderJournalEntry (entryItem){
-    const element = document.createElement
-}*/
-
-/*const localStorageData = localStorage.getItem('entryItem')*/
