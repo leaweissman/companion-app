@@ -112,3 +112,22 @@ lightrectangles.forEach((rectangle) => {
     })
 
 })
+
+const form = document.querySelector('form')
+const saveButton = document.querySelector('.button__orange')
+const inputField = document.querySelector('.formular')
+let journalEntryList = JSON.parse(localStorage.getItem('entryItem')) || [];
+
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault()
+    journalEntryList.push(inputField.value)
+    localStorage.setItem('entryItem', JSON.stringify(journalEntryList));
+    inputField.value = '';
+})
+
+/*function renderJournalEntry (entryItem){
+    const element = document.createElement
+}*/
+
+/*const localStorageData = localStorage.getItem('entryItem')*/
