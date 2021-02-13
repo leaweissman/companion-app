@@ -4,11 +4,13 @@ fetch('https://muc-2020-w1-student-api.vercel.app/api/journals')
     .then(result => result.json())
     .then(journalEntries => {
         const allJournalEntries = journalEntries.map((journalEntries, index) => renderJournalEntries(journalEntries, index))
-        const ratingfun = journalEntries.map((entry, index) =>
-            getRating(entry, index))
+        const ratingfun = journalEntries.map((entry, index) => getRating(entry, index))
+
+        /*const comprehensionfun = journalEntries.map((entry, journalEntry.id) => getComprehension(entry, journalEntry.id))*/
     })
 
     .catch((error) => console.log(error.message))
+
 
 function getRating(ratingOfJournalEntry, index) {
     const rating = ratingOfJournalEntry.rating
@@ -71,6 +73,38 @@ function createStar() {
 }
 
 
+
+
+/*function getComprehension(comprehensionOfJournalEntry, journalEntry.id) {
+    const comprehension = comprehensionOfJournalEntry.comprehension
+    if (comprehension == 6) {
+        console.log(comprehension)
+        const rectangleContainer = document.getElementById(journalEntry.id)
+        const rectangle = createRectangle()
+        const rectangle2 = createRectangle()
+        const rectangle3 = createRectangle()
+        const rectangle4 = createRectangle()
+        const rectangle5 = createRectangle()
+        const rectangle6 = createRectangle()
+        rectangleContainer.append(rectangel)
+        rectangleContainer.append(rectangle2)
+        rectangleContainer.append(rectangle3)
+        rectangleContainer.append(rectangle4)
+        rectangleContainer.append(rectangle5)
+        rectangleContainer.append(rectangle6)
+    }
+}
+
+
+function createRectangle() {
+    const rectangle = document.createElement('img')
+    rectangle.classList.add('filledrectangles')
+    return rectangle
+}*/
+
+
+
+
 function renderJournalEntries(journalEntry, index) {
     const box = document.createElement('section')
     box.classList.add('journal', 'bl-shadow', 'radius__bottom', 'radius__top')
@@ -90,49 +124,3 @@ function renderJournalEntries(journalEntry, index) {
     journalEntriesList.appendChild(box)
 
 }
-
-/*function ratingStars(ratedStars) {
-    const rating =
-    if rating.value
-}*/
-
-
-
-
-
-/*<section class="journal bl-shadow radius__bottom radius__top">
-    <h5 class="journal__yesterday">YESTERDAY</h5>
-    <h6>Rating:</h6>
-    <div class="journal__stars">
-        <img src="images/Star@2x.svg" alt="star">
-            <img src="images/Star@2x.svg" alt="star">
-                <img src="images/Star@2x.svg" alt="star">
-                    <img src="images/Star@2x.svg" alt="star">
-                        <img src="images/Star@2x.svg" alt="star">
-            </div>
-                        <h6>Comprehension:</h6>
-                        <div class="journal__box">
-                            <img src="images/Rectangle@2x.svg" alt="rectangle">
-                                <img src="images/Rectangle@2x.svg" alt="rectangle">
-                                    <img src="images/Rectangle@2x.svg" alt="rectangle">
-                                        <img src="images/Rectangle@2x.svg" alt="rectangle">
-                                            <img src="images/Rectangle@2x.svg" alt="rectangle">
-                                                <img src="images/Rectangle@2x.svg" alt="rectangle">
-                                                    <img src="images/Rectangle@2x.svg" alt="rectangle">
-                                                        <img src="images/Rectangle@2x.svg" alt="rectangle">
-                                                            <img src="images/Rectangle@2x.svg" alt="rectangle">
-                                                                <img src="images/Rectangle@2x.svg" alt="rectangle">
-            </div>
-
-                                                                <h6>Motto:</h6>
-                                                                <p class="journal__motto citylife">"That's life in this city"</p>
-
-
-                                                                <h6>Notes:</h6>
-
-                                                                <p class="journal__notes notes">Si sine causa? quae fuerit causa, mox videro; interea hoc tenebo, si mihi.
-                                                                Et
-                                                                quidem se repellere, idque
-                                                                instituit docere sic omne animal, simul atque.
-            </p>
-        </section>*/

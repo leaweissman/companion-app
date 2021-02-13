@@ -46,11 +46,11 @@ fetch('https://muc-2020-w1-student-api.vercel.app/api/teams')
     .catch((error) => console.log(error.message))
 
 
-function renderTeams(teamName) {
+function renderTeams(teamName, index) {
     const box = document.createElement('section')
     box.classList.add('team', 'team__2')
 
-    box.innerHTML = `
+    box.innerHTML = `<h5 class="dashboard__h5">Team ${index+1}</h5>
 <h3 class="team bl-light radius__top"> ${teamName[0]} </h3>
 <h3 class="team bl-light">${teamName[1]}</h3>
 <h3 class="team bl-light">${teamName[2]}</h3>
